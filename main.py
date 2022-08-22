@@ -16,16 +16,10 @@ while want_a_band_name:
 
     pet_name = input('what is your pet\'s name?')
 
-    print(f'Your band\'s name could be {city_name} {pet_name}.\n')
+    print(f'Your band\'s name could be {city_name} {pet_name}.'
+          f'This name has {len(city_name+pet_name)} characters.\n')
 
     continue_naming = input('Do you want another option to name your band? Type \'Y\' for yes: ').lower()
 
     if not continue_naming != 'y':
         break
-
-
-
-
-
-
-
